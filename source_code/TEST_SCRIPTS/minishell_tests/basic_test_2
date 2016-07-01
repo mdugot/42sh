@@ -1,0 +1,38 @@
+
+setenv toto
+
+setenv tata truc
+
+env | grep tata
+env | grep toto
+
+setenv toto value
+
+setenv tata nouvellevalue
+
+env | grep toto
+env | grep tata
+
+setenv 1 2 3
+
+unsetenv toto tata 1 existepas
+unsetenv
+unsetenv USER
+env | grep USER
+
+setenv toto=
+setenv "truc "
+setenv #truc
+setenv 1truc
+setenv ""
+
+setenv "abcdef" "hello :D"
+setenv $abcdef toto
+setenv | grep abcdef
+
+setenv truc1
+setenv | grep truc1
+setenv truc truc1
+setenv | grep truc
+setenv $truc toto
+setenv | grep $truc

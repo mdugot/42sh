@@ -1,0 +1,21 @@
+unsetenv PATH
+
+echo "toto \a coucou"
+echo "toto \b coucou"
+echo "toto \c coucou"
+echo "toto \n coucou"
+echo "toto \t coucou"
+echo "toto \v coucou"
+echo "toto \f coucou"
+echo "toto \r coucou"
+echo "toto \\ coucou"
+
+echo toto \a coucou
+echo toto \b coucou
+echo toto \c coucou
+echo toto \n coucou
+echo toto \t coucou
+echo toto \v coucou
+echo toto \f coucou
+echo toto \r coucou
+echo toto \\ coucou

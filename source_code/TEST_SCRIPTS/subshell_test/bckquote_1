@@ -1,0 +1,19 @@
+rm -rf toto
+`` && echo TOTO
+
+`ls -z` && echo TOTO
+`ls -z` || echo TOTO
+
+echo "`ls -a`"
+echo '`ls -a`'
+
+echo \`ls\`
+echo \` ls\`
+echo\'qweqwe\'
+echo\'     qweqwe\'
+
+env -i echo `env | grep USER` > toto
+cat < toto
+
+echo "`pwd`"
+rm -rf toto

@@ -1,0 +1,14 @@
+rm -rf toto
+
+ls | cat -e > toto
+cat toto
+
+ls -a > toto | cat -e
+cat -n toto
+
+ls > toto -a | cat -e
+cat -n toto
+
+ls > toto | cat -e >> toto
+cat toto -n
+rm -rf toto

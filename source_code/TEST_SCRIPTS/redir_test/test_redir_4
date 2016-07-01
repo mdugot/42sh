@@ -1,0 +1,14 @@
+rm -rf toto truc 12313 "-" 1 \&
+
+truc 2>&-
+truc 2>&1
+ls 1>&-
+ls -z 1>&-
+ls >& toto
+cat -e toto
+
+ls 123123>&-
+ls 2312>&12313
+cat 12313
+
+rm -rf toto truc 12313 "-" 1 \&

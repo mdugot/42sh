@@ -1,0 +1,17 @@
+cd /
+
+ls | truc
+
+truc | ls
+
+ls | truc | toto
+
+truc | toto | ls
+
+truc | ls | toto
+
+ls | cat -e | cat -n | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | existepas
+
+ls|cat -e
+
+ls|cat -e|cat -n|cat -e|cat -e

@@ -1,0 +1,16 @@
+!#
+!#!#!#!#
+
+echo toto !#
+
+ls !-1
+
+echo !-2
+
+echo !-2 !#
+
+history -s !#
+
+!1!2!3!4!!
+
+!qweqw!!#!@#!DAS!ASDAS!@!&!@asdasd!

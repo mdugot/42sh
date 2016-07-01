@@ -1,0 +1,15 @@
+rm -rf pouet toto
+
+(toto) && ls
+(toto) || ls
+
+ ls && (echo TOTO || pwd)
+ ls && echo TOTO || pwd
+ ls -z || (echo TOTO && pwd)
+ ls -z || echo TOTO && pwd
+
+echo OK && (ls `ls` > toto || echo KO)
+
+echo (truc) ls;
+
+rm -rf pouet tutu toto

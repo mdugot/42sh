@@ -1,0 +1,11 @@
+ls /usr | cat -e
+
+ls toto | cat -e
+
+ls | wc
+
+ls | cat -e | cat -n | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e
+
+ls | cd / | pwd
+
+ls | env -i TOTO=TATA

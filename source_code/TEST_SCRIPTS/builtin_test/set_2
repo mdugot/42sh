@@ -1,0 +1,11 @@
+export "toto tata"
+export @toto
+export "" truc
+
+export toto
+export | grep toto
+unset toto
+export truc $toto
+export | grep toto
+export | grep truc
+unset truc

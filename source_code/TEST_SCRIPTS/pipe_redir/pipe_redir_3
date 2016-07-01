@@ -1,0 +1,11 @@
+rm -rf truc
+
+ls truc | cat -e 2>&1
+ls truc 2>&1 | cat -e
+ls truc 2>&2 | cat -e
+ls truc 2>&0 | cat -e
+ls truc 2>&1 | cat -e 2> pouet
+ls truc 2>&1 | cat -e 1>&2 2> pouet
+
+cat -e << toto | truc 2>&1 | cat -e
+ls | 2>&- cat < trucquiexistepas

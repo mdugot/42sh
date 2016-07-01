@@ -1,0 +1,16 @@
+(ls)
+
+(pwd)
+
+(cd / ; pwd) ; pwd
+
+() ; (ls) ; ()
+
+(env toto=truc | grep toto) ; env | grep toto
+
+(exit)
+
+(ls ; exit ; pwd) ; pwd
+
+((ls ; exit ; pwd) ; pwd ; cd / ; pwd) ; pwd
+((ls ; cd / ; pwd ) ; pwd ; cd / ; pwd) ; pwd

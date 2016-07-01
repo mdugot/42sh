@@ -1,0 +1,16 @@
+history -c
+
+ls
+echo !
+
+ls
+echo !!
+
+!1
+
+!2
+
+!10
+
+!!
+

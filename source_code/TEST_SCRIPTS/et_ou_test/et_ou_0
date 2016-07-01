@@ -1,0 +1,11 @@
+ls && pwd || ls -a
+ls || pwd && ls -a
+
+ls -z && pwd || ls -a
+ls -z || pwd && ls -a
+
+ls && pwdx || ls -a
+ls || pwdw && ls -a
+
+ls -z && pwdx || ls -a
+ls -z || pwdw && ls -a

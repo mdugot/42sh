@@ -1,0 +1,14 @@
+rm -rf toto tmp
+
+truc | ls | cat -e | cat -n > toto
+cat toto
+
+echo tutu > toto
+echo > tmp
+cat -e tmp | cat -n < toto
+
+toto
+
+cat -e < toto | cat -n < toto
+
+rm -rf toto tmp

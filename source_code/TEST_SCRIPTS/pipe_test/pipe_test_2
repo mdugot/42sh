@@ -1,0 +1,19 @@
+cd /
+
+|
+
+| | | | | | | pwd | | | | cat -e
+
+| ls
+
+ls |
+
+ls|||pwd
+
+ls|||||||||||||||||||pwd
+
+ls | exit | ls
+
+ls | exit 123
+
+ls | setenv truc toto ; env | grep truc

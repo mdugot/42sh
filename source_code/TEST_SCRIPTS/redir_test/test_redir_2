@@ -1,0 +1,15 @@
+rm -rf toto titi
+echo pouet > toto
+
+cat < toto -n >> toto
+cat toto
+
+echo pouet > toto
+
+cat < toto -n >> titi
+cat titi
+
+cat >> titi < toto -e
+cat titi toto
+
+rm -rf toto titi

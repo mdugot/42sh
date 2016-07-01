@@ -1,0 +1,12 @@
+rm -rf truc
+
+() || echo vide
+() && echo vide
+
+echo ()
+() < truc
+() > truc
+(ls) >& truc
+(echo toto > pouet) < tutu
+
+rm -rf truc

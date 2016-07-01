@@ -1,0 +1,8 @@
+unset
+unset toto
+unset existe pas
+export toto
+export | grep toto
+unset toto
+export | grep toto
+unset pleins de trucs kks

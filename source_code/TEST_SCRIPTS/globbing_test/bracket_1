@@ -1,0 +1,16 @@
+touch a ab abc abcdefg 1 2 3
+
+echo []
+echo [-a]
+echo [z-]
+echo [*]
+echo *[*]
+echo *[truc]
+echo [[[[a]]]]
+echo [a[1[2[a]b]c]d]
+echo [aaaaaaa]
+echo [a--g]
+echo [a-b-g]
+echo [ag]
+
+rm a ab abc abcdefg 1 2 3

@@ -1,0 +1,10 @@
+ls existepas 2>>&-/
+ls existepas >&2>toto
+ls existepas >&2>toto<&-
+ls existepas >&2>toto<&->>truc
+cat existepas >&2>toto<&->>truc<toto
+cat existepas 2>&1>toto<&->>truc<toto
+ls >>>&toto
+ls >2>&-
+
+rm -rf "-" toto truc

@@ -1,0 +1,17 @@
+cd ..
+
+echo **/*.c
+echo **/*.*
+echo **/*.[*]
+echo **/*.{*}
+cat **/*.[h]
+echo /*
+echo /.*
+echo /*.*
+echo /*.[*]
+echo /usr/bin/*
+echo /usr/*/date
+
+echo * *
+echo *a*
+echo **/*a*

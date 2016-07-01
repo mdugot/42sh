@@ -1,0 +1,7 @@
+sh42: No matches: []
+sh42: No matches: [z-]
+sh42: No matches: [*]
+sh42: No matches: *[*]
+sh42: No matches: [[[a]]]
+sh42: No matches: [a[1[2[a]b]c]d]
+sh42: No matches: [a--g]

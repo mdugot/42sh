@@ -1,0 +1,16 @@
+rm -rf toto truc
+
+ls | truc > toto
+cat -e toto
+
+
+ls | truc 2> toto
+cat -e toto
+
+toto > truc
+cat < toto > truc | ls
+
+cat < toto -e >> truc | hello
+cat truc
+
+rm -f toto truc

@@ -1,0 +1,11 @@
+ls && pwd
+
+ls -z && pwd
+toto && echo OK
+env -i && pwd
+setenv !@# && echo OK
+
+ls && pwd && echo OK
+ls && ls -z && echo OK
+ls -z && ls && echo OK
+ls && pwd && toto

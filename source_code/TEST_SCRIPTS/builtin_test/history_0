@@ -1,0 +1,22 @@
+history -c
+history -w
+history
+history -a
+history
+history -n
+history
+history -c
+history
+history -s
+history
+history -p
+history
+
+history -wancsp
+history
+history -pscnaw
+history
+history -wns
+history
+history -acp
+history

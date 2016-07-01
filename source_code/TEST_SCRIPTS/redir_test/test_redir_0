@@ -1,0 +1,13 @@
+rm -f toto tata ttruc
+
+ls > toto
+
+cat -e toto
+
+ls > tata > ttruc
+
+cat -n tata ttruc
+
+rm -f tata toto ttruc
+
+exit

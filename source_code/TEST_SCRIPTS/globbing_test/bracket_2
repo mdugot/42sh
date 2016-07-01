@@ -1,0 +1,14 @@
+touch a z zb ab abc abcdefg 1 2 3 123 "@ toto"
+
+echo []
+echo [a]?
+echo [a-z]
+echo [a-z]*
+echo [a][b]
+echo [a-z][b-z]
+echo [a-z]*[b-z]*
+
+echo [[0-9]*[a-z]*]*
+echo [[0-9]*[a-z]*]?
+
+rm a z zb ab abc abcdefg 1 2 3 123 "@ toto"

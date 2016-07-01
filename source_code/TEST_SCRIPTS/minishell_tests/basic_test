@@ -1,0 +1,7 @@
+echo coucou
+ls
+pwd
+cd ..
+pwd
+cd -
+pwd

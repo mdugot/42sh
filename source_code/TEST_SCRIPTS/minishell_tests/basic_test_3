@@ -1,0 +1,46 @@
+setenv toto $HOME
+cd /
+pwd
+ls
+unsetenv PATH
+ls
+/bin/ls
+setenv PATH toto
+ls
+setenv PATH ::toto:/bin/:
+ls
+
+unsetenv HOME
+cd
+setenv HOME titi
+cd
+setenv HOME
+cd
+setenv HOME ..
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+pwd
+
+setenv HOME $toto
+cd /tmp
+pwd
+cd ..
+pwd
+cd -P /tmp
+pwd
+cd ../././
+pwd
+cd ./../
+pwd

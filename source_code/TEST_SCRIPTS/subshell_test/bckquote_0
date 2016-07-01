@@ -1,0 +1,20 @@
+rm -rf toto
+``
+
+`ls`
+`qweqwe`
+
+echo `ls`
+echo `qweqwe`
+
+`ls` && echo OK
+`qweqwe` && echo OK
+
+`ls > toto` ; cat toto
+`qweqwe > toto` ; cat toto
+
+echo ``
+ls ``
+
+echo `cd / ; pwd` ; pwd
+rm -rf toto

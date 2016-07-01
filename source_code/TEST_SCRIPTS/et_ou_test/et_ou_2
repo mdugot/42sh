@@ -1,0 +1,30 @@
+rm -rf truc
+
+&& ||
+
+ls && || pwd
+ls || && pwd
+
+ls||&&pwd
+ls&&||pwd
+ls&& ||pwd
+ls|| &&pwd
+ls||&&pwd
+
+ls ||&&
+ls &&||
+
+||&& ls
+&&|| ls
+&&||ls
+|&|& ls
+
+toto && ls ||
+ls && toto ||
+toto || ls &&
+
+cat < truc | wc || | ls
+
+ls -z >> truc || >> pouet
+
+rm -rf truc

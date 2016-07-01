@@ -1,0 +1,26 @@
+touch a ab abc abcdefg 1 2 3
+
+[a]
+[b]
+[a-z]?
+[]
+
+echo []
+echo [a]
+echo [a]?
+echo *[a]
+echo [a]*
+
+echo [a-g]
+echo [a-g]?
+echo ?[a-g]
+echo [a-g]*
+echo *[a-g]
+
+echo [0-9]
+echo [0-9]?
+echo [0-9]*
+echo ?[0-9]
+echo [a-z]*test
+
+rm a ab abc abcdefg 1 2 3

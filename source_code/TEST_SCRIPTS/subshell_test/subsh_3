@@ -1,0 +1,10 @@
+(ls / &&)
+
+(&& ls /)
+
+(> truc)
+(cat <) && echo toto
+
+ls (>> toto)
+
+echo $USER; ( echo $USER;(echo $USER; (echo $USER ;(echo $USER ;( echo $USER ; ( echo $USER))))))

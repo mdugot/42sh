@@ -1,0 +1,6 @@
+ab
+z a
+redir_test checker.sh z subshell_test check_globbing_test abcdefg sh_error test_valid builtin_test diff1 pipe_redir check_minishell_tests check_builtin_test zb ab minishell_tests get_diff_stderr error2 abc check_subshell_test sh_valid pipe_test test_error get_diff_stdout globbing_test diff2 a et_ou_test error1
+ab
+zb ab
+redir_test checker.sh subshell_test check_globbing_test abcdefg sh_error test_valid builtin_test diff1 pipe_redir check_minishell_tests check_builtin_test zb ab minishell_tests get_diff_stderr error2 abc check_subshell_test sh_valid pipe_test test_error get_diff_stdout globbing_test diff2 et_ou_test error1

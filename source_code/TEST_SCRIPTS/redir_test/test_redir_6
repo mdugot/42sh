@@ -1,0 +1,13 @@
+truc > titi
+cat -e titi
+
+rm titi
+
+commandeinconnue 2> titi
+cat -e titi
+echo truc > titi
+ls -z >> titi
+cat -e titi
+ls -z 2>> titi
+cat -e titi
+rm titi

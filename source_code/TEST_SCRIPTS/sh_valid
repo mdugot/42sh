@@ -1,0 +1,10 @@
+.a .ab .abc .abcde .abcdef
+.a .ab .abc .abcde .abcdef
+.ab .abc .abcde .abcdef
+.a .ab .abc .abcde .abcdef
+& 1 2 3 z
+12 zb
+.a
+.ab
+.a .ab .abc .abcde .abcdef
+.ab .abc .abcde .abcdef

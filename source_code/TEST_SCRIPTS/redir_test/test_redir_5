@@ -1,0 +1,10 @@
+mkdir ../truc
+cd ../truc
+
+ls > salut > les>duos >quadra>on      > mange         >        des>          raviolis >      au       >surimi>avec >des > cacahuetes> si > ten>      veut >      viens          >avec                > nous            >             ouaiiiiiiis
+
+cat -e salut les duos quadra on mange des raviolis au surimi avec des cacahuetes si ten veut viens avec nous ouaiiiiiiis
+
+cd ..
+rm -rf truc
+exit 123

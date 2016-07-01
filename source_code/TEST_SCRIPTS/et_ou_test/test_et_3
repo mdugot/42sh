@@ -1,0 +1,8 @@
+ls < truc && echo OK
+ls && echo OK | cat -e && echo "OKOK" > truc && echo "ENCORE OK" " YOLO " | cat < trucquiexistepas
+
+pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd && pwd
+
+pwd && /bin/ls
+
+exit && echo POUET

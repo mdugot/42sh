@@ -1,0 +1,18 @@
+ls && ls -a && pwd || ls / && ls -a / && pwd
+ls && ls -a && pwdx || ls / && ls -a / && pwd
+ls && ls -z && pwd || ls / && ls -a / && pwd
+ls -z && ls -a && pwd || ls / && ls -a / && pwd
+ls && ls -a && pwdx || ls / && ls -z / && pwd
+
+
+ls || pwd && ls / && ls -a || pwd
+ls -z || pwd && ls / && ls -a || pwd
+ls -z || pwd && ls / && ls -z || pwd
+ls -z || pwd && ls / -z && ls -a || pwd
+ls -z || pwdx && ls / && ls -a || pwd
+
+ls || pwd && ls / -z && ls -z || pwd
+ls -z && toto || pwd && totox && ls -a || pwd
+
+cd .&&ls -z|| pwd
+

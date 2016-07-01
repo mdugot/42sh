@@ -1,0 +1,13 @@
+rm -rf toto
+
+echo truc > toto
+
+echo truc | cat -e >> toto
+
+echo truc | cat -e >> toto | cat -n
+
+ls | cat -e < toto
+
+ls -R | cat -e | cat -n
+
+rm -rf toto

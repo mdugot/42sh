@@ -1,0 +1,12 @@
+truc 2>&1 | cat -e
+ls -z 2>&1 | cat -e
+
+ls >&toto
+cat <&toto
+
+ls>&truc
+cat<&truc
+
+ls existepas 2>&-/
+
+rm -f truc ">&toto" toto truc "2>&-"

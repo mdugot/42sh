@@ -1,0 +1,22 @@
+unsetenv PATH
+echo "\a\b\c\n\t\v\f\r\\"
+echo "\\a\\b\\c\\n\\t\\v\\f\\r\\"
+
+echo \a\b\c\n\t\v\f\r\\truc
+
+echo "\a\b\n\t\v\f\r\\"
+
+echo \a\b\n\t\v\f\r\\truc
+
+echo "\a\b\c\n\t\v\f\r\\coucou"
+
+echo \a\b\c\n\t\v\f\r\\coucou
+
+echo "\a\b\n\t\v\f\r\\coucou"
+
+echo \a\b\n\t\v\f\r\\coucou
+
+echo \q\w\e\r\t\y\u\i\o\p\a\s\d\f\g\h\j\k\l\;\'\z\x\c\v\b\n\m\,\.\/\\1\2\3\4\5\5\6\6\7\7\8\9\0\\truc
+
+echo "\q\w\e\r\t\y\u\i\o\p\a\s\d\f\g\h\j\k\l\;\'\z\x\c\v\b\n\m\,\.\/\\1\2\3\4\5\5\6\6\7\7\8\9\0\\"
+

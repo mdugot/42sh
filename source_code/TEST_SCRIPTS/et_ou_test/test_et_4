@@ -1,0 +1,12 @@
+ls&&
+&&ls
+ls&&pwd
+ls&&pwd&&ls&pwd&&echo toto&&pwd
+cd existepas&&pwd
+cd existepas&|&pwd
+cd existepas&&|pwd
+ls -R &&
+ls -R&&
+ls -R && 
+ls -R && ;
+ls -R && ; pwd ; echo toto

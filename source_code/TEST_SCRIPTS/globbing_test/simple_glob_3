@@ -1,0 +1,9 @@
+touch a ab abc abcde abcdef
+
+echo ?
+echo ??
+echo ? ?
+echo ?? ??
+echo ???
+
+rm a ab abc abcde abcdef

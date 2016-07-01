@@ -1,0 +1,7 @@
+unsetenv PATH
+echo
+echo -n
+echo -n toto
+echo simple test
+echo simple test avec pleins pleins d'arguments' lalalalal  alsd asdas da s fas gad fsdf asdfa dsfa dfdsaf asdf ad f32 41 3523 6 ra we ag asdf
+echo "" "hello world" -n coucou -- recoucou

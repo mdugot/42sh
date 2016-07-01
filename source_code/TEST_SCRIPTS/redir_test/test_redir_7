@@ -1,0 +1,10 @@
+wc < toto > toto
+echo pouet > toto
+wc < toto > titi
+cat -e titi
+wc >> titi < toto
+cat -e titi
+wc > toto < titi
+cat -e toto
+
+rm -rf toto titi

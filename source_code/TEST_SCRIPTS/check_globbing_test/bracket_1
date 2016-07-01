@@ -1,0 +1,5 @@
+a
+redir_test subshell_test check_globbing_test sh_error builtin_test pipe_redir check_builtin_test get_diff_stderr abc check_subshell_test pipe_test test_error get_diff_stdout globbing_test et_ou_test
+a
+a
+a

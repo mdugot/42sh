@@ -1,0 +1,7 @@
+ls || ls || ls || ls || ls || ls || ls && pwd || ls && ls || pwd || ls && pwd && pwd || ls || pwd && ls && ls && ls || pwd || pwd || ls || pwd && ls
+
+ls -z || ls -z || ls -z || ls -z || ls -z || ls -z || ls -z && pwd || ls -z && ls -z || pwd || ls -z && pwd && pwd || ls -z || pwd && ls -z && ls -z && ls -z || pwd || pwd || ls -z || pwd && ls -z
+
+ls || ls || ls || ls || ls || ls || ls && pwdx || ls && ls || pwdx || ls && pwdx && pwdx || ls || pwdx && ls && ls && ls || pwdx || pwdx || ls || pwdx && ls
+
+ls -z || ls -z || ls -z || ls -z || ls -z || ls -z || ls -z && pwdx || ls -z && ls -z || pwdx || ls -z && pwdx && pwdx || ls -z || pwdx && ls -z && ls -z && ls -z || pwdx || pwdx || ls -z || pwdx && ls -z

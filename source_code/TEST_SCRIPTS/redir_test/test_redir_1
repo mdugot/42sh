@@ -1,0 +1,13 @@
+rm -rf toto tata
+
+ls > toto -a
+
+cat -e toto
+
+ls >> toto
+cat -n < toto >> tata
+
+wc < toto
+wc < toto < tata
+
+rm -rf toto tata

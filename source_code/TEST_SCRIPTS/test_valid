@@ -1,0 +1,11 @@
+.a .ab .abcdef .abc .abcde
+.a .ab .abcdef .abc .abcde
+.ab .abcdef .abc .abcde
+.a .ab .abcdef .abc .abcde
+1 z 2 3
+12 zb
+.a
+.ab
+.a .ab .abcdef .abc .abcde
+.ab .abcdef .abc .abcde
+1 redir_test &hoho checker.sh z subshell_test & 123123123 check_globbing_test abcdefg sh_error test_valid toto builtin_test pipe_redir 12 asd123 2 check_minishell_tests check_builtin_test pwd zb minishell_tests get_diff_stderr check_subshell_test sh_valid pipe_test bang 123 test_error get_diff_stdout 123asd globbing_test 3 @ toto et_ou_test

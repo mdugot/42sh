@@ -1,0 +1,17 @@
+rm -rf truc
+
+ls -z < truc || echo OK
+lsx || echox OK | catx -e || echox "OKOK" > truc || echox "ENCORE OK" " YOLO " | cat < trucquiexistepas
+
+ls
+
+pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwdx || pwd
+
+
+pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd || pwd
+
+pwdz || /bin/ls
+
+rm -rf truc
+
+exit || echo POUET

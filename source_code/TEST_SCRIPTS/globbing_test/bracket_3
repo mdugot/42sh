@@ -1,0 +1,16 @@
+touch a ab abc abcdefg 1 2 3 "&hoho"
+
+echo [------------------g]
+echo [a------]
+echo [a- g]
+echo [a-*]
+echo [z-a]
+echo [@-a]
+echo [@--]
+echo [@-\\]
+echo [@-\]]
+
+echo [\&]*
+echo [!a]g
+
+rm a ab abc abcdefg 1 2 3 \&hoho

@@ -1,0 +1,7 @@
+1,4c1
+< 42sh: No matches: [.]*
+< 42sh: No matches: [?]
+< 42sh: No matches: [?]*
+< 42sh: No matches: ?[*]
+---
+>  no matches found: [.]*

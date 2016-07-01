@@ -1,0 +1,15 @@
+ls>
+cat<
+truc>>
+pouet<<
+
+cat<&
+ls>&
+
+>truc
+>>toto
+
+>&-
+>&toto
+
+rm -rf toto

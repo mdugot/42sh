@@ -1,0 +1,20 @@
+unsetenv PATH
+
+echo "toto \a"
+echo "toto \b"
+echo "toto \c"
+echo "toto \n"
+echo "toto \t"
+echo "toto \v"
+echo "toto \f"
+echo "toto \\"
+
+echo toto \a
+echo toto \b
+echo toto \c
+echo toto \n
+echo toto \t
+echo toto \v
+echo toto \f
+echo toto \r
+echo toto \\

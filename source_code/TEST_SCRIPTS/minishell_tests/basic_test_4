@@ -1,0 +1,7 @@
+cd ; ls ; toto ; truc ; cat -e < unfichierquiexistepaaas ; cd / ; pwd
+
+; ls
+ls ;
+;;
+toto ; ls ;
+;;;;;;;;;;;;;;;;

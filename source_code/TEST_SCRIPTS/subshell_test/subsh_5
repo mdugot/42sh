@@ -1,0 +1,8 @@
+echo \(ls
+
+echo toto > \(ls
+cat -e \(ls
+echo toto > "(ls"
+cat -n \(ls
+
+rm -rf "(ls"

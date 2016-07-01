@@ -1,0 +1,15 @@
+rm -rf toto truc
+
+ls | cat -e && echo OK
+ls > toto && echo OK
+ls -a >> toto && echo OK
+ls && echo OK | cat -e
+ls && echo OK | cat -e && echo "OKOK"
+ls && echo OK | cat -e && echo "OKOK" > truc && echo "ENCORE OK" " YOLO "
+
+cd / && pwd
+cd existepas && pwd
+chmod 000 existepas && cd existepas && echo truc
+ls -z && ls -z && ls -z ; pwd
+
+rm -rf toto truc

@@ -1,0 +1,10 @@
+setenv: Too many arguments.
+unsetenv: Variable not found: 1.
+unsetenv: Variable not found: existepas.
+unsetenv: Too few arguments.
+setenv: Variable name must contain alphanumeric characters.
+setenv: Variable name must contain alphanumeric characters.
+setenv: Variable name must begin with a letter.
+setenv: Variable name must begin with a letter.
+setenv: Variable name must begin with a letter.
+setenv: Variable name must contain alphanumeric characters.

@@ -1,0 +1,5 @@
+export: Variable name must contain alphanumeric characters.
+export: Variable name must contain alphanumeric characters.
+export: Variable name must begin with a letter.
+toto: Undefined variable.
+unset: Variable not found: truc.

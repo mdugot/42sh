@@ -1,0 +1,8 @@
+echo `echo vide` toto
+
+echo `() || echo vide`
+echo `() || echo vide` toto
+
+./`ls`
+
+`ls` 2>&1 | cat -e

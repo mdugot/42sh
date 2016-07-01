@@ -1,0 +1,8 @@
+read
+
+read -x
+read -qwertyuiop
+read toto
+truc
+export toto
+export | grep toto

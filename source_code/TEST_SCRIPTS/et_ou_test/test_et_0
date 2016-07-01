@@ -1,0 +1,35 @@
+ls &&
+
+&& ls
+
+&&
+
+&&>
+
+&&&
+
+ls && pwd
+ls &&> pwd
+ls &&< pwd
+ls &&>& pwd
+
+ls >&& toto
+ls <&& toto
+
+ls &| pwd
+
+ls |& pwd
+
+ls &>>& toto
+
+ls &&>> toto
+
+ls >>&& toto
+
+ls &|& pwd
+
+ls && ; pwd
+
+; && pwd
+
+; ls | && pwd ; && ls -a

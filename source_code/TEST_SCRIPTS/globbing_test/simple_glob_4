@@ -1,0 +1,20 @@
+touch .a .ab .abc .abcde .abcdef
+
+echo .?*
+echo .*?
+echo .?*?
+echo .*
+echo ?
+echo ??
+echo .?
+echo .??
+echo .*
+echo .??*
+
+echo [.]*
+echo [?]
+echo [?]*
+echo ?*
+echo ?[*]
+
+rm -f .a .ab .abc .abcde .abcdef

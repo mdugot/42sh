@@ -1,0 +1,10 @@
+export toto
+export | grep toto
+export toto tutu
+export | grep toto
+export toto $toto
+export | grep toto
+export toto 123123jk12h3jh2kh12k3h123"truc{(}><qwe@#"
+export | grep toto
+unset toto
+export | grep toto

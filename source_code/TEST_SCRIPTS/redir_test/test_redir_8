@@ -1,0 +1,21 @@
+mkdir truc
+cd truc
+
+echo pouet >          toto
+cat -e toto
+ls                           >               toto
+cat toto
+ls >toto
+ls>toto
+cat<toto
+ls>toto>truc
+cat<toto<truc
+
+cat toto
+cat truc
+
+cat<existepas
+cat < existepas
+
+cd ..
+rm -rf truc

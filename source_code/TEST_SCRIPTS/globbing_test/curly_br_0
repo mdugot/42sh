@@ -1,0 +1,14 @@
+touch a ab abc 1 2 12 123123123 123asd asd123
+
+echo {a}
+echo {a*}
+echo {abc,}
+echo {,abc}
+
+echo {,}
+echo {,,,,,,,}
+echo {a,a,a,a,a,a,a,abc}
+echo {*}
+echo {?}
+
+rm -rf a ab abc 1 2 12 123123123 123asd asd123

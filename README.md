@@ -13,6 +13,7 @@ set.
 unset.  
 setenv.  
 unsetenv.  
+env [-iu].  
 
 It also includes several functionalities :  
   

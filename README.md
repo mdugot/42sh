@@ -13,6 +13,7 @@ set.
 unset.  
 setenv.  
 unsetenv.  
+env [-iu].  
 
 It also includes several functionalities :  
   
@@ -85,7 +86,7 @@ LEFT-RIGHT :  move the cursor.
 UP-DOWN : can browse through the history.  
 TAB : autocompletion.  
 Ctrl-b : go one world back.  
-Ctrl-n : go to the next worl.  
+Ctrl-n : go to the next world.  
 Ctrl-l : go down to the next line.  
 Ctrl-k : go up to the previous line.  
 

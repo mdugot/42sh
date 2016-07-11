@@ -23,6 +23,7 @@ char			*get_host_and_user(void)
 	struct passwd	*user_infos;
 	char			*tmp;
 
+	return (NULL);
 	user = geteuid();
 	user_infos = NULL;
 	ret = NULL;

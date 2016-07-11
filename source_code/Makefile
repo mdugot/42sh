@@ -12,7 +12,7 @@
 
 NAME= 42sh
 CC= gcc
-CFLAGS= -Wall -Werror -Wextra -g3 #-fsanitize=address
+CFLAGS= -Wall -Werror -Wextra #-g3 -fsanitize=address
 SRC_NAME= main.c number.c command_decompose.c command_edit.c error.c \
 		  decompose_utils.c debug.c fd_utils.c path.c \
 		  redirection_utils.c aggregation_utils.c pipe.c \

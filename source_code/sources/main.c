@@ -22,7 +22,7 @@
 #include <fcntl.h>
 #include "libft.h"
 
-static void			arg_error(int argc, char **argv)
+static void	arg_error(int argc, char **argv)
 {
 	(void)argv;
 	if (argc >= 2)
@@ -33,7 +33,7 @@ static void			arg_error(int argc, char **argv)
 	}
 }
 
-static int			void_line(char *str)
+static int	void_line(char *str)
 {
 	if (!str)
 		return (1);
@@ -46,7 +46,7 @@ static int			void_line(char *str)
 	return (1);
 }
 
-static void			loop_command(t_shprop *shprop, t_shell *shell, char *str)
+static void	loop_command(t_shprop *shprop, t_shell *shell, char *str)
 {
 	t_command	*command;
 
@@ -62,7 +62,7 @@ static void			loop_command(t_shprop *shprop, t_shell *shell, char *str)
 	}
 }
 
-int					main(int argc, char **argv, char **environ)
+int		main(int argc, char **argv, char **environ)
 {
 	t_shprop	*shprop;
 	t_shell		*shell;
